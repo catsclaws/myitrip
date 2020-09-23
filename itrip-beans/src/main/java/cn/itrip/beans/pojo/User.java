@@ -6,7 +6,9 @@ import java.io.Serializable;
  * 用户
  */
 public class User implements Serializable {
-    private int id;
+	//用户id
+    private int id; 
+	//用户名
     private String userName;
     private String userCode;
 
